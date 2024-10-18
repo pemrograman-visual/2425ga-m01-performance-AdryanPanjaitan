@@ -4,9 +4,10 @@
         <attribute name="name" value="m01"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 10:35:22 AM"/>
+        <attribute name="saved" value="2024-10-18 11:39:22 AM"/>
         <attribute name="created" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMDoyNToxMiBBTTsyNjU0"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMDozNToyMiBBTTsxOzI3NjQ="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMTozOTowMCBBTTsxO0FTVVM7TEFQVE9QLUk2R1A0Vk1OOzIwMjQtMTAtMTg7MTE6MTM6MzUgQU07NTQ4MQ=="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMTozOToyMiBBTTsyOzI3NzA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,11 +16,11 @@
             <declare name="nilaiangka, A, AB, B, BC, C, D, E, PERFORMA, kredit0" type="Real" array="False" size=""/>
             <do expression="kredit!=&quot;---&quot;">
                 <input variable="kredit"/>
-                <if expression="kredit=&quot;---&quot;">
+                <input variable="nilaihuruf"/>
+                <if expression="kredit=&quot;---&quot;&amp;&amp;nilaihuruf=&quot;---&quot;">
                     <then/>
                     <else>
                         <assign variable="kredit0" expression="ToReal(kredit)"/>
-                        <input variable="nilaihuruf"/>
                         <if expression="nilaihuruf=&quot;A&quot;">
                             <then>
                                 <assign variable="nilaiangka" expression="4.0"/>
@@ -77,4 +78,4 @@
             </do>
         </body>
     </function>
-</flowgorithm> 
+</flowgorithm>

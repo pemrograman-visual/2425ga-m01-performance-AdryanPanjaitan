@@ -13,10 +13,10 @@ public class M01 {
 
         do {
             kredit = input.nextLine();
-            if (kredit.equals("---")) {
+            nilaihuruf = input.nextLine();
+            if (kredit.equals("---") && nilaihuruf.equals("---")) {
             } else {
                 kredit0 = Double.parseDouble(kredit);
-                nilaihuruf = input.nextLine();
                 if (nilaihuruf.equals("A")) {
                     nilaiangka = 4.0;
                 } else {
