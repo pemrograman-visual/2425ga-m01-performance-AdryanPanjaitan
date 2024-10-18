@@ -1,5 +1,5 @@
 // 12S24008 - Rospika Sarah Yosefin Siregar 
-// 12S24013 - Adryan JUlianto Panjaitan 
+// 12S24013 - Adryan JUlianto Panjaitan  
 
 import java.util.*;
 import java.lang.Math;
