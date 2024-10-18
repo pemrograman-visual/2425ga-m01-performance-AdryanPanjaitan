@@ -4,17 +4,17 @@
         <attribute name="name" value="m01"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:39:22 AM"/>
+        <attribute name="saved" value="2024-10-18 11:44:19 AM"/>
         <attribute name="created" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMDoyNToxMiBBTTsyNjU0"/>
         <attribute name="edited" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMTozOTowMCBBTTsxO0FTVVM7TEFQVE9QLUk2R1A0Vk1OOzIwMjQtMTAtMTg7MTE6MTM6MzUgQU07NTQ4MQ=="/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMTozOToyMiBBTTsyOzI3NzA="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSTZHUDRWTU47MjAyNC0xMC0xODsxMTo0NDoxOSBBTTszOzI3NzM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="kredit, nilaihuruf" type="String" array="False" size=""/>
             <declare name="nilaiangka, A, AB, B, BC, C, D, E, PERFORMA, kredit0" type="Real" array="False" size=""/>
-            <do expression="kredit!=&quot;---&quot;">
+            <do expression="kredit!=&quot;---&quot;&amp;&amp;nilaihuruf!=&quot;---&quot;">
                 <input variable="kredit"/>
                 <input variable="nilaihuruf"/>
                 <if expression="kredit=&quot;---&quot;&amp;&amp;nilaihuruf=&quot;---&quot;">
